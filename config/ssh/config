@@ -1,0 +1,99 @@
+Host rpi
+    User tori
+    HostName 192.168.1.106
+    Port 1033
+    IdentityFile ~/.ssh/id_rsa
+
+Host qdev
+   User fernando.torija.peg
+   Hostname bastion.peg.qless.com
+   Port 22
+   IdentityFile ~/.ssh/id_rsa
+
+###### Qless Hosts ######
+Host na1
+    User fernando
+    HostName app.na1.int.qless.com
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+Host na2
+    User fernando
+    HostName app.na2.int.qless.com
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+Host na3
+    User fernando
+    HostName app.na3.int.qless.com
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+Host na4
+    User fernando
+    HostName app.na4.int.qless.com
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+Host na6
+    User fernando
+    HostName app.na6.int.qless.com
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+Host us1
+    User fernando
+    HostName app.us1.int.qless.com
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+Host us2
+    User fernando
+    HostName app.us2.int.qless.com
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+Host au1
+    User fernando
+    HostName app.au1.int.qless.com
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+Host ca1
+    User fernando
+    HostName app.ca1.int.qless.com
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+Host dpw
+    User fernando
+    HostName dpw.eur.int.qless.com
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+Host cia-us
+    User fernando
+    HostName cia.us.int.qless.com
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+Host cia-na4
+    User fernando
+    HostName cia.na4.int.qless.com
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+Host cia-na1
+    User fernando
+    HostName cia.na1.int.qless.com
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+Host cia-ca1
+    User fernando
+    HostName cia.ca1.int.qless.com
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+###### Qless Hosts ######
+

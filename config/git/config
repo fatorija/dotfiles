@@ -1,0 +1,15 @@
+[user]
+        email = fernando.torija@qless.com
+        name = Fernando Torija
+[github]
+	user = fatorija
+
+
+[core]
+        editor = code --wait
+
+[grep]
+	lineNumber = true
+
+[help]
+	autocorrect = 1
